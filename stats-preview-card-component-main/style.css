@@ -1,0 +1,73 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.main-div {
+    width: 1100px;
+    background-color: hsl(244, 38%, 16%);
+    margin: 10% auto 10%;
+    height: 450px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.text-section {
+    position: absolute;
+    width: 49%;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 5%;
+    color: hsl(0, 0%, 100%);
+
+}
+
+strong {
+    color: hsl(277, 69%, 47%);
+}
+
+p, h3, span {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sentence {
+    font-family: sans-serif;
+    width: 80%;
+}
+h1 {
+    margin-bottom: 10%;
+}
+
+.test{
+    display: flex;
+}
+
+.test-box{
+    margin-right: 12%;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+
+.image-section {
+    position: absolute;
+    width: 50%;
+    margin: 0 0 0 50.5%;
+}
+.image-section img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 99%;
+    margin-right: 0;
+    position: absolute;
+}
+.color-opacity {
+    background-color: hsl(277, 64%, 61%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 99%;
+    margin-right: 0;
+    position: absolute;
+    height: 450px;
+    opacity: 0.6;
+}
+
+        
